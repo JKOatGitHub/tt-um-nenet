@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The aim of the project is to prove the clock less neural network on the chip.
+The measurements should prove of the intended performance.
 
 ## How to test
 
-Explain how to use your project
+Verified/simulated on a local testbench
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+List external hardware used - oscilloscope, external FPGA based controller and checker
