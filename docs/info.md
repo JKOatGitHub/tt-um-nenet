@@ -9,8 +9,10 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The aim of the project is to prove the clock less neural network on the chip.
-The measurements should prove of the intended performance.
+This project implements a neural network experiment in digital logic.
+The design processes the input signals using hardware-based neural
+network elements.
+
 
 ## How to test
 
