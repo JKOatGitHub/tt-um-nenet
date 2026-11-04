@@ -8,11 +8,11 @@ project:
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 340x160 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
+  tiles: "3x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
   #top_module:  "tt_um_nenet"
-  top_module:  "tt_um_kolman_ic1"
+  top_module:  "tt_um_nenet"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -30,8 +30,8 @@ project:
     - "LUT6.v"
     - "OBUF.v"
     - "VCC.v"
-    - "top_asyalu_dr_ff.v"
-    - "tt_um_kolman_ic1.v"
+    - "top_nenet_dr_ff.v"
+    - "tt_um_nenet.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
@@ -41,7 +41,7 @@ pinout:
   ui[1]: "op_i[1]"
   ui[2]: "op_i[2]"
   ui[3]: "op_i[3]"
-  ui[4]: ""
+  ui[4]: "op_i[4]"
   ui[5]: "start_i"
   ui[6]: "clr_n_i"
   ui[7]: "arst_n_i"
@@ -51,20 +51,20 @@ pinout:
   uo[1]: "dout_o[1]"
   uo[2]: "dout_o[2]"
   uo[3]: "dout_o[3]"
-  uo[4]: ""
-  uo[5]: ""
+  uo[4]: "dout_o[4]"
+  uo[5]: "dout_o[5]"
   uo[6]: "flag_o"
   uo[7]: "ack_o"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "dio_io[0]"
+  uio[1]: "dio_io[1]"
+  uio[2]: "dio_io[2]"
+  uio[3]: "dio_io[3]"
+  uio[4]: "dio_io[4]"
+  uio[5]: "dio_io[5]"
+  uio[6]: "dio_io[6]"
+  uio[7]: "dio_io[7]"
 
 # Do not change!
 yaml_version: 6
