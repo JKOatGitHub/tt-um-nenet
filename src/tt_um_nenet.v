@@ -1,12 +1,14 @@
 (* STRUCTURAL_NETLIST = "yes" *)
 module tt_um_nenet
-   (arst_n_i,
+   (clk,
+    arst_n_i,
     clr_n_i,
     start_i,
     op_i,
     ack_o,
     dout_o,
     flag_o);
+  input clk;
   input arst_n_i;
   input clr_n_i;
   input start_i;
