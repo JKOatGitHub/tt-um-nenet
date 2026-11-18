@@ -2,6 +2,7 @@
 module tt_um_nenet
    (clk,
     ena,
+    rst_n,
     arst_n_i,
     clr_n_i,
     start_i,
@@ -11,6 +12,7 @@ module tt_um_nenet
     flag_o);
   input clk;
   input ena;
+  input rst_n;
   input arst_n_i;
   input clr_n_i;
   input start_i;
