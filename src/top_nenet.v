@@ -419,10 +419,7 @@ module top_nenet
         .O(dout_o_0[1]));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_a0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_a0/clk_i ),
         .CE(\<const1> ),
@@ -431,10 +428,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/a0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_a1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_a1/clk_i ),
         .CE(\<const1> ),
@@ -450,10 +444,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b0/clk_i ),
         .CE(\<const1> ),
@@ -469,10 +460,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_dr_o/i_b1/clk_i ),
         .CE(\<const1> ),
@@ -488,10 +476,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_6 ),
         .CE(\<const1> ),
@@ -500,10 +485,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_5 ),
         .CE(\<const1> ),
@@ -512,10 +494,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/or1_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_4 ),
         .CE(\<const1> ),
@@ -544,10 +523,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_3 ),
         .CE(\<const1> ),
@@ -588,10 +564,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c0/curr_c_reg 
        (.C(op_int_dr[1]),
         .CE(\<const1> ),
@@ -607,10 +580,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -626,10 +596,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -678,10 +645,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/curr_c_reg 
        (.C(op_int_dr[0]),
         .CE(\<const1> ),
@@ -690,10 +654,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/or3 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_2 ),
         .CE(\<const1> ),
@@ -702,10 +663,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in_8 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ),
         .CE(\<const1> ),
@@ -714,10 +672,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -735,10 +690,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ),
         .CE(\<const1> ),
@@ -754,10 +706,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_a0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i ),
         .CE(\<const1> ),
@@ -766,10 +715,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -778,10 +724,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ),
         .CE(\<const1> ),
@@ -799,10 +742,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_a1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_0_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ),
         .CE(\<const1> ),
@@ -825,10 +765,7 @@ module top_nenet
         .O(dout_o_1[1]));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_a0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_a0/clk_i ),
         .CE(\<const1> ),
@@ -837,10 +774,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/a0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_a1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_a1/clk_i ),
         .CE(\<const1> ),
@@ -856,10 +790,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b0/clk_i ),
         .CE(\<const1> ),
@@ -875,10 +806,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_dr_o/i_b1/clk_i ),
         .CE(\<const1> ),
@@ -894,10 +822,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_6 ),
         .CE(\<const1> ),
@@ -906,10 +831,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_5 ),
         .CE(\<const1> ),
@@ -918,10 +840,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/or1_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_4 ),
         .CE(\<const1> ),
@@ -950,10 +869,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_3 ),
         .CE(\<const1> ),
@@ -994,10 +910,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c0/curr_c_reg 
        (.C(op_int_dr[3]),
         .CE(\<const1> ),
@@ -1013,10 +926,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1032,10 +942,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1084,10 +991,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/curr_c_reg 
        (.C(op_int_dr[2]),
         .CE(\<const1> ),
@@ -1096,10 +1000,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/or3 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_2 ),
         .CE(\<const1> ),
@@ -1108,10 +1009,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in_8 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ),
         .CE(\<const1> ),
@@ -1120,10 +1018,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1141,10 +1036,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ),
         .CE(\<const1> ),
@@ -1160,10 +1052,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_a0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i ),
         .CE(\<const1> ),
@@ -1172,10 +1061,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1184,10 +1070,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ),
         .CE(\<const1> ),
@@ -1205,10 +1088,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_a1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_1_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ),
         .CE(\<const1> ),
@@ -1231,10 +1111,7 @@ module top_nenet
         .O(dout_o_2[1]));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_a0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_a0/clk_i ),
         .CE(\<const1> ),
@@ -1243,10 +1120,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/a0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_a1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_a1/clk_i ),
         .CE(\<const1> ),
@@ -1262,10 +1136,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b0/clk_i ),
         .CE(\<const1> ),
@@ -1281,10 +1152,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_dr_o/i_b1/clk_i ),
         .CE(\<const1> ),
@@ -1300,10 +1168,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_6 ),
         .CE(\<const1> ),
@@ -1312,10 +1177,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_5 ),
         .CE(\<const1> ),
@@ -1324,10 +1186,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/or1_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_4 ),
         .CE(\<const1> ),
@@ -1356,10 +1215,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_3 ),
         .CE(\<const1> ),
@@ -1400,10 +1256,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c0/curr_c_reg 
        (.C(op_int_dr[5]),
         .CE(\<const1> ),
@@ -1419,10 +1272,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1438,10 +1288,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1490,10 +1337,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/curr_c_reg 
        (.C(op_int_dr[4]),
         .CE(\<const1> ),
@@ -1502,10 +1346,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/or3 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_2 ),
         .CE(\<const1> ),
@@ -1514,10 +1355,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in_8 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ),
         .CE(\<const1> ),
@@ -1526,10 +1364,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1547,10 +1382,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ),
         .CE(\<const1> ),
@@ -1566,10 +1398,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_a0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i ),
         .CE(\<const1> ),
@@ -1578,10 +1407,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1590,10 +1416,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ),
         .CE(\<const1> ),
@@ -1611,10 +1434,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_a1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_2_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ),
         .CE(\<const1> ),
@@ -1637,10 +1457,7 @@ module top_nenet
         .O(dout_o_3[1]));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_a0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_a0/clk_i ),
         .CE(\<const1> ),
@@ -1649,10 +1466,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/a0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_a1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_a1/clk_i ),
         .CE(\<const1> ),
@@ -1668,10 +1482,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b0/clk_i ),
         .CE(\<const1> ),
@@ -1687,10 +1498,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_dr_o/i_b1/clk_i ),
         .CE(\<const1> ),
@@ -1706,10 +1514,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_6 ),
         .CE(\<const1> ),
@@ -1718,10 +1523,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_5 ),
         .CE(\<const1> ),
@@ -1730,10 +1532,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/or1_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_4 ),
         .CE(\<const1> ),
@@ -1762,10 +1561,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a1/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_3 ),
         .CE(\<const1> ),
@@ -1806,10 +1602,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c0/curr_c_reg 
        (.C(op_int_dr[7]),
         .CE(\<const1> ),
@@ -1825,10 +1618,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1844,10 +1634,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1896,10 +1683,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/curr_c_reg 
        (.C(op_int_dr[6]),
         .CE(\<const1> ),
@@ -1908,10 +1692,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a12/i_c3/or3 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i_2 ),
         .CE(\<const1> ),
@@ -1920,10 +1701,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/p_0_in_8 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i_1 ),
         .CE(\<const1> ),
@@ -1932,10 +1710,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i ),
         .CE(\<const1> ),
@@ -1953,10 +1728,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_a2/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i_0 ),
         .CE(\<const1> ),
@@ -1972,10 +1744,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_a0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c0/clk_i ),
         .CE(\<const1> ),
@@ -1984,10 +1753,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c0/p_0_in ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c1/clk_i ),
         .CE(\<const1> ),
@@ -1996,10 +1762,7 @@ module top_nenet
         .Q(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/or1 ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c2/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c2/clk_i_7 ),
         .CE(\<const1> ),
@@ -2023,10 +1786,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_a1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_z/i_c3/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/dout_o_3_INST_0/i_mux_gen_dr_s10/i_00.i_xor_dr/i_c3/clk_i ),
         .CE(\<const1> ),
@@ -2056,10 +1816,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a0/clk_i ),
         .CE(\<const1> ),
@@ -2075,10 +1832,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_a1/clk_i ),
         .CE(\<const1> ),
@@ -2094,10 +1848,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b0/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b0/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b0/clk_i ),
         .CE(\<const1> ),
@@ -2113,10 +1864,7 @@ module top_nenet
         .O(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b1/clk_i ));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
-    .INIT(1'b0),
-    .IS_CLR_INVERTED(1'b0),
-    .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0)) 
+    .INIT(1'b0)) 
     \i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b1/curr_c_reg 
        (.C(\i_cmb_syn_dr_ff/flag_o_INST_0/i_mux_dr_o/i_b1/clk_i ),
         .CE(\<const1> ),
