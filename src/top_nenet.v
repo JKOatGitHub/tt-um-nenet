@@ -1,5 +1,5 @@
 (* STRUCTURAL_NETLIST = "yes" *)
-module tt_um_nenet
+module top_nenet
    (arst_n_i,
     clr_n_i,
     start_i,
