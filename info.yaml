@@ -30,6 +30,7 @@ project:
     - "LUT6.v"
     - "OBUF.v"
     - "VCC.v"
+    - "top_nenet.v"
     - "tt_um_nenet.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
