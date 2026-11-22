@@ -1,19 +1,3 @@
-// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-// --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
-// Date        : Sun Nov 22 11:37:25 2026
-// Host        : lxic1 running 64-bit Ubuntu 24.04.3 LTS
-// Command     : write_verilog -force ./vivado_prj_synthesis/export/top_nenet.v
-// Design      : top_nenet
-// Purpose     : This is a Verilog netlist of the current design or from a specific cell of the design. The output is an
-//               IEEE 1364-2001 compliant Verilog HDL file that contains netlist information obtained from the input
-//               design files.
-// Device      : xc7s25csga225-2
-// --------------------------------------------------------------------------------
-`timescale 1 ps / 1 ps
-
-(* STRUCTURAL_NETLIST = "yes" *) (* keep_hierarchy = "soft" *) 
 module nenet_cmb_dr_ff
    (din_3,
     din_2,
