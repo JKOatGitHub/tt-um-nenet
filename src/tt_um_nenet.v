@@ -16,9 +16,10 @@ module tt_um_nenet (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-  wire [3:0]din_i;
-  wire [4:0]dout_o;
+  wire [4:0]din_i;
+  wire [5:0]dout_o;
   wire ack_o;
+  wire dtb_o;
   wire sdin_i;
   wire clr_n_i;
   wire start_i;
@@ -26,8 +27,7 @@ module tt_um_nenet (
   assign sdin_i   = ui_in[7];
   assign clr_n_i  = ui_in[6];
   assign start_i  = ui_in[5];
-
-  assign din_i    = ui_in[3:0];
+  assign din_i    = ui_in[4:0];
 
   top_nenet i_design
    (.arst_n_i(rst_n),
@@ -37,10 +37,11 @@ module tt_um_nenet (
     .start_i(start_i),
     .din_i(din_i),
     .dout_o(dout_o),
-    .ack_o(ack_o)
+    .ack_o(ack_o),
+    .dtb_o(dtb_o)
    );
 
-  assign uo_out = {ack_o, 2'b00, dout_o};
+  assign uo_out = {ack_o, dtb_o, dout_o};
 
   // All output pins must be assigned. If not used, assign to 0.
   //assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
@@ -48,6 +49,6 @@ module tt_um_nenet (
   assign uio_oe  = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, ui_in[4], uio_in};
+  wire _unused = &{ena, uio_in};
 
 endmodule
