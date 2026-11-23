@@ -6,8 +6,7 @@ module top_nenet
     start_i,
     din_i,
     dout_o,
-    ack_o,
-    .dtb_o(\<const0> ));
+    ack_o);
   input arst_n_i;
   input clk_i;
   input sdin_i;
@@ -16,7 +15,6 @@ module top_nenet
   input [4:0]din_i;
   output [5:0]dout_o;
   output ack_o;
-  output \<const0> ;
 
   wire \<const0> ;
   wire \<const1> ;
