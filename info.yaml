@@ -31,6 +31,7 @@ project:
     - "MUXF7.v"
     - "OBUF.v"
     - "VCC.v"
+    - "GND.v"
     - "top_nenet.v"
     - "tt_um_nenet.v"
 
@@ -54,7 +55,7 @@ pinout:
   uo[3]: "dout_o[3]"
   uo[4]: "dout_o[4]"
   uo[5]: "dout_o[5]"
-  uo[6]: "flag_o"
+  uo[6]: "dout_o[6]"
   uo[7]: "ack_o"
 
   # Bidirectional pins
