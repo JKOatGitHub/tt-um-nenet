@@ -28,6 +28,7 @@ project:
     - "LUT4.v"
     - "LUT5.v"
     - "LUT6.v"
+    - "MUXF7.v"
     - "OBUF.v"
     - "VCC.v"
     - "top_nenet.v"
