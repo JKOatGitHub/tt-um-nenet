@@ -16,8 +16,7 @@ module top_nenet
   output [5:0]dout_o;
   output ack_o;
 
-  wire \<const0> ;
-  wire \<const1> ;
+  wire const1_1 ;
   wire ack_o;
   wire arst_n_i;
   wire clk_i;
@@ -4997,10 +4996,8 @@ module top_nenet
   wire [251:1]weights_int_dr;
   wire [125:0]weights_shift;
 
-  GND GND
-       (.G(\<const0> ));
   VCC VCC
-       (.P(\<const1> ));
+       (.P(const1_1 ));
   LUT6 #(
     .INIT(64'hAAAAAAAAAAAAAAA8)) 
     curr_c_i_1
@@ -5616,31 +5613,31 @@ module top_nenet
         .O(curr_c_i_9__2_n_0));
   FDCE \din_int_reg[0] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(din_i[0]),
         .Q(din_int[0]));
   FDCE \din_int_reg[1] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(din_i[1]),
         .Q(din_int[1]));
   FDCE \din_int_reg[2] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(din_i[2]),
         .Q(din_int[2]));
   FDCE \din_int_reg[3] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(din_i[3]),
         .Q(din_int[3]));
   FDCE \din_int_reg[4] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(din_i[4]),
         .Q(din_int[4]));
@@ -30948,13 +30945,13 @@ module top_nenet
         .O(\i_cmb_syn_dr/mul_weight__0_carry_i_3__0/s36 [0]));
   FDCE \dout_o_reg[0] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_0),
         .Q(dout_o[0]));
   FDCE \dout_o_reg[1] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_1),
         .Q(dout_o[1]));
@@ -30965,7 +30962,7 @@ module top_nenet
         .S(\i_cmb_syn_dr/i_speed_sel0_6 [0]));
   FDCE \dout_o_reg[2] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_2[1]),
         .Q(dout_o[2]));
@@ -30981,13 +30978,13 @@ module top_nenet
         .S(\i_cmb_syn_dr/h4_0 [1]));
   FDCE \dout_o_reg[3] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_3),
         .Q(dout_o[3]));
   FDCE \dout_o_reg[4] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_4),
         .Q(dout_o[4]));
@@ -30998,7 +30995,7 @@ module top_nenet
         .S(\i_cmb_syn_dr/i_turn_sel0_6 [0]));
   FDCE \dout_o_reg[5] 
        (.C(ack_o),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(dout_5[1]),
         .Q(dout_o[5]));
@@ -31526,39 +31523,39 @@ module top_nenet
         .O(\i_cmb_syn_dr/i__carry_i_6__3_n_0 [1]));
   FDCE \i_dual2bin/i_ack[1].i_gate_c/curr_c_reg 
        (.C(\i_dual2bin/i_ack[1].i_gate_c/clk_i ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(\i_dual2bin/ack_int_1 ));
   FDCE \i_dual2bin/i_ack[2].i_gate_c/curr_c_reg 
        (.C(\i_dual2bin/i_ack[2].i_gate_c/clk_i ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(\i_dual2bin/ack_int_2 ));
   FDCE \i_dual2bin/i_ack[3].i_gate_c/curr_c_reg 
        (.C(\i_dual2bin/i_ack[3].i_gate_c/clk_i ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(\i_dual2bin/ack_int_3 ));
   FDCE \i_dual2bin/i_ack[4].i_gate_c/curr_c_reg 
        (.C(\i_dual2bin/i_ack[4].i_gate_c/clk_i ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(\i_dual2bin/ack_int_4 ));
   FDCE \i_dual2bin/i_ack[5].i_gate_c/curr_c_reg 
        (.C(\i_dual2bin/i_ack[5].i_gate_c/clk_i ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(ack_o));
   FDCE \i_dual2bin/i_gate_c_o/curr_c_reg 
        (.C(\i_dual2bin/orsig_int ),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(curr_c_i_2__4_n_0),
-        .D(\<const1> ),
+        .D(const1_1 ),
         .Q(\i_dual2bin/ack_int_0 ));
   (* SOFT_HLUTNM = "soft_lutpair739" *) 
   LUT4 #(
@@ -61748,757 +61745,757 @@ module top_nenet
         .O(\i_cmb_syn_dr/sum__33_carry_i_9__1_n_0 [1]));
   FDCE \weights_shift_reg[0] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(sdin_i),
         .Q(weights_shift[0]));
   FDCE \weights_shift_reg[100] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[99]),
         .Q(weights_shift[100]));
   FDCE \weights_shift_reg[101] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[100]),
         .Q(weights_shift[101]));
   FDCE \weights_shift_reg[102] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[101]),
         .Q(weights_shift[102]));
   FDCE \weights_shift_reg[103] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[102]),
         .Q(weights_shift[103]));
   FDCE \weights_shift_reg[104] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[103]),
         .Q(weights_shift[104]));
   FDCE \weights_shift_reg[105] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[104]),
         .Q(weights_shift[105]));
   FDCE \weights_shift_reg[106] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[105]),
         .Q(weights_shift[106]));
   FDCE \weights_shift_reg[107] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[106]),
         .Q(weights_shift[107]));
   FDCE \weights_shift_reg[108] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[107]),
         .Q(weights_shift[108]));
   FDCE \weights_shift_reg[109] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[108]),
         .Q(weights_shift[109]));
   FDCE \weights_shift_reg[10] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[9]),
         .Q(weights_shift[10]));
   FDCE \weights_shift_reg[110] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[109]),
         .Q(weights_shift[110]));
   FDCE \weights_shift_reg[111] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[110]),
         .Q(weights_shift[111]));
   FDCE \weights_shift_reg[112] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[111]),
         .Q(weights_shift[112]));
   FDCE \weights_shift_reg[113] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[112]),
         .Q(weights_shift[113]));
   FDCE \weights_shift_reg[114] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[113]),
         .Q(weights_shift[114]));
   FDCE \weights_shift_reg[115] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[114]),
         .Q(weights_shift[115]));
   FDCE \weights_shift_reg[116] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[115]),
         .Q(weights_shift[116]));
   FDCE \weights_shift_reg[117] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[116]),
         .Q(weights_shift[117]));
   FDCE \weights_shift_reg[118] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[117]),
         .Q(weights_shift[118]));
   FDCE \weights_shift_reg[119] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[118]),
         .Q(weights_shift[119]));
   FDCE \weights_shift_reg[11] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[10]),
         .Q(weights_shift[11]));
   FDCE \weights_shift_reg[120] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[119]),
         .Q(weights_shift[120]));
   FDCE \weights_shift_reg[121] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[120]),
         .Q(weights_shift[121]));
   FDCE \weights_shift_reg[122] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[121]),
         .Q(weights_shift[122]));
   FDCE \weights_shift_reg[123] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[122]),
         .Q(weights_shift[123]));
   FDCE \weights_shift_reg[124] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[123]),
         .Q(weights_shift[124]));
   FDCE \weights_shift_reg[125] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[124]),
         .Q(weights_shift[125]));
   FDCE \weights_shift_reg[12] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[11]),
         .Q(weights_shift[12]));
   FDCE \weights_shift_reg[13] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[12]),
         .Q(weights_shift[13]));
   FDCE \weights_shift_reg[14] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[13]),
         .Q(weights_shift[14]));
   FDCE \weights_shift_reg[15] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[14]),
         .Q(weights_shift[15]));
   FDCE \weights_shift_reg[16] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[15]),
         .Q(weights_shift[16]));
   FDCE \weights_shift_reg[17] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[16]),
         .Q(weights_shift[17]));
   FDCE \weights_shift_reg[18] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[17]),
         .Q(weights_shift[18]));
   FDCE \weights_shift_reg[19] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[18]),
         .Q(weights_shift[19]));
   FDCE \weights_shift_reg[1] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[0]),
         .Q(weights_shift[1]));
   FDCE \weights_shift_reg[20] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[19]),
         .Q(weights_shift[20]));
   FDCE \weights_shift_reg[21] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[20]),
         .Q(weights_shift[21]));
   FDCE \weights_shift_reg[22] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[21]),
         .Q(weights_shift[22]));
   FDCE \weights_shift_reg[23] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[22]),
         .Q(weights_shift[23]));
   FDCE \weights_shift_reg[24] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[23]),
         .Q(weights_shift[24]));
   FDCE \weights_shift_reg[25] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[24]),
         .Q(weights_shift[25]));
   FDCE \weights_shift_reg[26] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[25]),
         .Q(weights_shift[26]));
   FDCE \weights_shift_reg[27] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[26]),
         .Q(weights_shift[27]));
   FDCE \weights_shift_reg[28] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[27]),
         .Q(weights_shift[28]));
   FDCE \weights_shift_reg[29] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[28]),
         .Q(weights_shift[29]));
   FDCE \weights_shift_reg[2] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[1]),
         .Q(weights_shift[2]));
   FDCE \weights_shift_reg[30] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[29]),
         .Q(weights_shift[30]));
   FDCE \weights_shift_reg[31] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[30]),
         .Q(weights_shift[31]));
   FDCE \weights_shift_reg[32] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[31]),
         .Q(weights_shift[32]));
   FDCE \weights_shift_reg[33] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[32]),
         .Q(weights_shift[33]));
   FDCE \weights_shift_reg[34] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[33]),
         .Q(weights_shift[34]));
   FDCE \weights_shift_reg[35] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[34]),
         .Q(weights_shift[35]));
   FDCE \weights_shift_reg[36] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[35]),
         .Q(weights_shift[36]));
   FDCE \weights_shift_reg[37] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[36]),
         .Q(weights_shift[37]));
   FDCE \weights_shift_reg[38] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[37]),
         .Q(weights_shift[38]));
   FDCE \weights_shift_reg[39] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[38]),
         .Q(weights_shift[39]));
   FDCE \weights_shift_reg[3] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[2]),
         .Q(weights_shift[3]));
   FDCE \weights_shift_reg[40] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[39]),
         .Q(weights_shift[40]));
   FDCE \weights_shift_reg[41] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[40]),
         .Q(weights_shift[41]));
   FDCE \weights_shift_reg[42] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[41]),
         .Q(weights_shift[42]));
   FDCE \weights_shift_reg[43] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[42]),
         .Q(weights_shift[43]));
   FDCE \weights_shift_reg[44] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[43]),
         .Q(weights_shift[44]));
   FDCE \weights_shift_reg[45] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[44]),
         .Q(weights_shift[45]));
   FDCE \weights_shift_reg[46] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[45]),
         .Q(weights_shift[46]));
   FDCE \weights_shift_reg[47] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[46]),
         .Q(weights_shift[47]));
   FDCE \weights_shift_reg[48] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[47]),
         .Q(weights_shift[48]));
   FDCE \weights_shift_reg[49] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[48]),
         .Q(weights_shift[49]));
   FDCE \weights_shift_reg[4] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[3]),
         .Q(weights_shift[4]));
   FDCE \weights_shift_reg[50] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[49]),
         .Q(weights_shift[50]));
   FDCE \weights_shift_reg[51] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[50]),
         .Q(weights_shift[51]));
   FDCE \weights_shift_reg[52] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[51]),
         .Q(weights_shift[52]));
   FDCE \weights_shift_reg[53] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[52]),
         .Q(weights_shift[53]));
   FDCE \weights_shift_reg[54] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[53]),
         .Q(weights_shift[54]));
   FDCE \weights_shift_reg[55] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[54]),
         .Q(weights_shift[55]));
   FDCE \weights_shift_reg[56] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[55]),
         .Q(weights_shift[56]));
   FDCE \weights_shift_reg[57] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[56]),
         .Q(weights_shift[57]));
   FDCE \weights_shift_reg[58] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[57]),
         .Q(weights_shift[58]));
   FDCE \weights_shift_reg[59] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[58]),
         .Q(weights_shift[59]));
   FDCE \weights_shift_reg[5] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[4]),
         .Q(weights_shift[5]));
   FDCE \weights_shift_reg[60] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[59]),
         .Q(weights_shift[60]));
   FDCE \weights_shift_reg[61] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[60]),
         .Q(weights_shift[61]));
   FDCE \weights_shift_reg[62] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[61]),
         .Q(weights_shift[62]));
   FDCE \weights_shift_reg[63] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[62]),
         .Q(weights_shift[63]));
   FDCE \weights_shift_reg[64] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[63]),
         .Q(weights_shift[64]));
   FDCE \weights_shift_reg[65] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[64]),
         .Q(weights_shift[65]));
   FDCE \weights_shift_reg[66] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[65]),
         .Q(weights_shift[66]));
   FDCE \weights_shift_reg[67] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[66]),
         .Q(weights_shift[67]));
   FDCE \weights_shift_reg[68] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[67]),
         .Q(weights_shift[68]));
   FDCE \weights_shift_reg[69] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[68]),
         .Q(weights_shift[69]));
   FDCE \weights_shift_reg[6] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[5]),
         .Q(weights_shift[6]));
   FDCE \weights_shift_reg[70] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[69]),
         .Q(weights_shift[70]));
   FDCE \weights_shift_reg[71] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[70]),
         .Q(weights_shift[71]));
   FDCE \weights_shift_reg[72] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[71]),
         .Q(weights_shift[72]));
   FDCE \weights_shift_reg[73] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[72]),
         .Q(weights_shift[73]));
   FDCE \weights_shift_reg[74] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[73]),
         .Q(weights_shift[74]));
   FDCE \weights_shift_reg[75] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[74]),
         .Q(weights_shift[75]));
   FDCE \weights_shift_reg[76] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[75]),
         .Q(weights_shift[76]));
   FDCE \weights_shift_reg[77] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[76]),
         .Q(weights_shift[77]));
   FDCE \weights_shift_reg[78] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[77]),
         .Q(weights_shift[78]));
   FDCE \weights_shift_reg[79] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[78]),
         .Q(weights_shift[79]));
   FDCE \weights_shift_reg[7] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[6]),
         .Q(weights_shift[7]));
   FDCE \weights_shift_reg[80] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[79]),
         .Q(weights_shift[80]));
   FDCE \weights_shift_reg[81] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[80]),
         .Q(weights_shift[81]));
   FDCE \weights_shift_reg[82] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[81]),
         .Q(weights_shift[82]));
   FDCE \weights_shift_reg[83] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[82]),
         .Q(weights_shift[83]));
   FDCE \weights_shift_reg[84] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[83]),
         .Q(weights_shift[84]));
   FDCE \weights_shift_reg[85] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[84]),
         .Q(weights_shift[85]));
   FDCE \weights_shift_reg[86] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[85]),
         .Q(weights_shift[86]));
   FDCE \weights_shift_reg[87] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[86]),
         .Q(weights_shift[87]));
   FDCE \weights_shift_reg[88] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[87]),
         .Q(weights_shift[88]));
   FDCE \weights_shift_reg[89] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[88]),
         .Q(weights_shift[89]));
   FDCE \weights_shift_reg[8] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[7]),
         .Q(weights_shift[8]));
   FDCE \weights_shift_reg[90] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[89]),
         .Q(weights_shift[90]));
   FDCE \weights_shift_reg[91] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[90]),
         .Q(weights_shift[91]));
   FDCE \weights_shift_reg[92] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[91]),
         .Q(weights_shift[92]));
   FDCE \weights_shift_reg[93] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[92]),
         .Q(weights_shift[93]));
   FDCE \weights_shift_reg[94] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[93]),
         .Q(weights_shift[94]));
   FDCE \weights_shift_reg[95] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[94]),
         .Q(weights_shift[95]));
   FDCE \weights_shift_reg[96] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[95]),
         .Q(weights_shift[96]));
   FDCE \weights_shift_reg[97] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[96]),
         .Q(weights_shift[97]));
   FDCE \weights_shift_reg[98] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[97]),
         .Q(weights_shift[98]));
   FDCE \weights_shift_reg[99] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[98]),
         .Q(weights_shift[99]));
   FDCE \weights_shift_reg[9] 
        (.C(clk_i),
-        .CE(\<const1> ),
+        .CE(const1_1 ),
         .CLR(\dout_o[5]_i_2_n_0 ),
         .D(weights_shift[8]),
         .Q(weights_shift[9]));
