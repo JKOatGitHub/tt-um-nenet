@@ -26,7 +26,7 @@ module tt_um_nenet (
   assign sdin_i   = ui_in[7];
   assign clr_n_i  = ui_in[6];
   assign start_i  = ui_in[5];
-  assign din_i    = ui_in[4:0];
+  assign din_i    = 2'b00 & ui_in[2:0];
 
   top_nenet i_design
    (.arst_n_i(rst_n),
