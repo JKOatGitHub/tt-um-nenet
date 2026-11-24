@@ -39,7 +39,7 @@ module tt_um_nenet (
     .ack_o(ack_o)
    );
 
-  assign uo_out = {ack_o, 1'b0, dout_o};
+    assign uo_out = {ack_o, 4'b0, dout_o[2:0]};
 
   // All output pins must be assigned. If not used, assign to 0.
   //assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
