@@ -17,6 +17,7 @@ module tt_um_nenet (
 );
 
   wire start_i;
+  wire dren_i;
   wire clr_n_i;
   wire [3:0]din_i;
   wire sdin_i;
