@@ -25,6 +25,7 @@
   
   "//": "JKO tunning",
   "PL_RESIZER_DESIGN_OPTIMIZATIONS": 0,
+  "PL_RESIZER_TIMING_OPTIMIZATIONS": 0,
   
   "//": "RUN_LINTER, LINTER_INCLUDE_PDK_MODELS - Disabling the linter is not recommended!",
   "RUN_LINTER": 1,
