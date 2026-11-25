@@ -27,6 +27,7 @@ module tt_um_nenet (
 
   assign start_i  = ui_in[7];
   assign clr_n_i  = ui_in[6];
+  assign dren_i   = ui_in[5];
   assign din_i    = ui_in[3:0];
   assign sdin_i   = ui_in[0]; //used during shifting
 
@@ -34,6 +35,7 @@ module tt_um_nenet (
    (.arst_n_i(rst_n),
     .clk_i(clk),
     .sdin_i(sdin_i),
+    .dren_i(dren_i),
     .clr_n_i(clr_n_i),
     .start_i(start_i),
     .din_i(din_i),
@@ -50,6 +52,6 @@ module tt_um_nenet (
   assign uio_oe  = 0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, ui_in[5:4], uio_in};
+  wire _unused = &{ena, ui_in[4], uio_in};
 
 endmodule
