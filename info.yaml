@@ -29,6 +29,7 @@ project:
     - "LUT5.v"
     - "LUT6.v"
     - "MUXF7.v"
+    - "CARRY4.v"
     - "OBUF.v"
     - "VCC.v"
     - "GND.v"
